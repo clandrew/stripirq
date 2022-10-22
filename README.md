@@ -37,3 +37,9 @@ $80/BC02 A5 75       LDA $75    [$00:0075]   A:0008 X:000A Y:0002 P:envmXdizc
 giving a continuous transcript skipping over the interrupt. The program handles both IRQ and NMI, as well as the case where NMI overlaps with an IRQ.
 
 When the program is built in Release config, it takes command line arguments. When the program is built in Debug config, the arguments are hard-coded.
+
+## Build
+This program is built as a Visual Studio 2019 solution.
+
+## Usage Environment
+This program is for Windows 7/Windows 10+ x86-compatible environments.
