@@ -29,12 +29,9 @@ int main(int argc, char** argv)
 
     std::string line;
     int outputLevel = 0;
-    int lineNumber = 0;
 
     while (std::getline(instrm, line))
     {
-        lineNumber++;
-
         if (line == "*** IRQ")
         {
             outputLevel--;
