@@ -1,5 +1,5 @@
 # StripIRQFromCPULog
-This is a dead simple command-line tool to strip interrupts from a 65816 CPU debugger transcript.
+This is a dead simple command-line tool to strip interrupts from a 65816 CPU debugger transcript. It could have probably been a regex.
 
 Usage:
 ```
