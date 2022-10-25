@@ -34,7 +34,7 @@ $80/BBFB D0 05       BNE $05    [$BC02]      A:0008 X:000A Y:0002 P:envmXdizc
 $80/BC02 A5 75       LDA $75    [$00:0075]   A:0008 X:000A Y:0002 P:envmXdizc
 ```
 
-giving a continuous transcript skipping over the interrupt. The program handles both IRQ and NMI, as well as the case where NMI overlaps with an IRQ.
+giving a continuous transcript skipping over the interrupt. The program handles IRQ and NMI and the case where NMI overlaps with an IRQ.
 
 When the program is built in Debug config, the arguments are hard-coded. When the program is built in Release config, it takes command line arguments. 
 
